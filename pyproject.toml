@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bank-fraud-intelligence-platform"
+version = "0.1.0"
+description = "Fraud intelligence platform for banking and payment abuse detection, reproduced from production work with synthetic data"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Jayden Xia"}]
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "scikit-learn>=1.3",
+  "scipy>=1.10",
+  "networkx>=3.1",
+  "pyyaml>=6.0",
+  "joblib>=1.3",
+  "matplotlib>=3.7"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

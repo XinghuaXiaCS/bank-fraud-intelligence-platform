@@ -1,0 +1,157 @@
+{
+  "feature_drift": {
+    "amount": {
+      "psi": 0.001908,
+      "drift_flag": false
+    },
+    "log_amount": {
+      "psi": 0.001908,
+      "drift_flag": false
+    },
+    "channel_risk": {
+      "psi": 0.000254,
+      "drift_flag": false
+    },
+    "device_risk": {
+      "psi": 0.001482,
+      "drift_flag": false
+    },
+    "is_new_device": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "is_new_geo": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "txn_count_1h": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "txn_count_24h": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "txn_amount_sum_1h": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "unique_merchants_1h": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "unique_devices_24h": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "unique_geos_24h": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "num_linked_accounts": {
+      "psi": 7e-06,
+      "drift_flag": false
+    },
+    "geo_distance_score": {
+      "psi": 0.001467,
+      "drift_flag": false
+    },
+    "high_amount_vs_turnover": {
+      "psi": 0.002054,
+      "drift_flag": false
+    },
+    "amount_z": {
+      "psi": 0.402945,
+      "drift_flag": true
+    },
+    "peer_amount_ratio": {
+      "psi": 0.002181,
+      "drift_flag": false
+    },
+    "hour": {
+      "psi": 0.002037,
+      "drift_flag": false
+    },
+    "dayofweek": {
+      "psi": 0.000208,
+      "drift_flag": false
+    },
+    "is_weekend": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "merchant_risk": {
+      "psi": 0.000984,
+      "drift_flag": false
+    },
+    "failed_logins_24h": {
+      "psi": 3.8e-05,
+      "drift_flag": false
+    },
+    "new_payee_recent": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "shared_counterparty_risk": {
+      "psi": 0.001447,
+      "drift_flag": false
+    },
+    "graph_degree": {
+      "psi": 5.548004,
+      "drift_flag": true
+    },
+    "graph_neighbor_fraud_ratio": {
+      "psi": 0.0,
+      "drift_flag": false
+    },
+    "graph_pagerank": {
+      "psi": 0.259361,
+      "drift_flag": true
+    },
+    "graph_community_fraud_ratio": {
+      "psi": 0.0,
+      "drift_flag": false
+    }
+  },
+  "score_drift": {
+    "logit_score": {
+      "psi": 0.153314,
+      "drift_flag": false
+    },
+    "hgb_score": {
+      "psi": 0.01098,
+      "drift_flag": false
+    },
+    "anomaly_score": {
+      "psi": 0.18502,
+      "drift_flag": false
+    },
+    "fraud_score": {
+      "psi": 0.151329,
+      "drift_flag": false
+    },
+    "investigation_priority_score": {
+      "psi": 0.096588,
+      "drift_flag": false
+    }
+  },
+  "alert_volume_drift": {
+    "train_action_distribution": {
+      "approve": 0.831,
+      "review": 0.1651,
+      "challenge": 0.0038
+    },
+    "test_action_distribution": {
+      "approve": 0.7629,
+      "review": 0.2317,
+      "challenge": 0.0054
+    }
+  },
+  "test_set_performance": {
+    "roc_auc": 0.7256337628899189,
+    "pr_auc": 0.11430392790254498,
+    "precision": 0.08224377899620414,
+    "recall": 0.5508474576271186,
+    "f1": 0.14311926605504588
+  }
+}

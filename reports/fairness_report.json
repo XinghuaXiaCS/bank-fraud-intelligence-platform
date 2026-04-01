@@ -1,0 +1,41 @@
+{
+  "age_band": {
+    "18_24": {
+      "false_positive_count": 578,
+      "total_negatives": 3595,
+      "false_positive_rate": 0.1608
+    },
+    "25_34": {
+      "false_positive_count": 1315,
+      "total_negatives": 8459,
+      "false_positive_rate": 0.1555
+    },
+    "35_49": {
+      "false_positive_count": 1167,
+      "total_negatives": 7368,
+      "false_positive_rate": 0.1584
+    },
+    "50_plus": {
+      "false_positive_count": 716,
+      "total_negatives": 4674,
+      "false_positive_rate": 0.1532
+    }
+  },
+  "customer_segment": {
+    "affluent": {
+      "false_positive_count": 724,
+      "total_negatives": 4771,
+      "false_positive_rate": 0.1518
+    },
+    "mass": {
+      "false_positive_count": 2697,
+      "total_negatives": 17089,
+      "false_positive_rate": 0.1578
+    },
+    "sme": {
+      "false_positive_count": 355,
+      "total_negatives": 2236,
+      "false_positive_rate": 0.1588
+    }
+  }
+}
