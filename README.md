@@ -2,7 +2,7 @@
 
 A production-grade fraud analytics system combining **rules, supervised machine learning, anomaly detection, graph/network analytics, investigation prioritisation, and governance-ready outputs** — reproduced from real-world banking fraud work with synthetic data for public publication.
 
-This repository is a restructured and open-sourced reproduction of a fraud detection system I built during my time at Yusys Technologies, adapted with synthetic data for public publication. It is intentionally structured so the same detection framework can be transferred from **banking and payments** to **public-sector payment integrity and provider misuse** problems such as **ACC-style fraud, waste, and abuse detection**.
+This repository is a restructured and open-sourced reproduction of a fraud detection system I built during my time at Yusys Technologies, adapted with synthetic data for public publication. It is intentionally structured so the same detection framework can be transferred from **banking and payments** to **public-sector payment integrity and provider misuse** problems such as **fraud, waste, and abuse detection**.
 
 ---
 
